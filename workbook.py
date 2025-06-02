@@ -99,7 +99,17 @@
 # print(list(range(101)))
 
 # join method 
-sentence = " "
-# new_sent = sentence.join(["Hi", "my", "name", "King6"])
-new_sent = " ".join(["Hi", "my", "name", "King6"])
-print(new_sent)
+# sentence = " "
+# # new_sent = sentence.join(["Hi", "my", "name", "King6"])
+# new_sent = " ".join(["Hi", "my", "name", "King6"])
+# # print(new_sent)
+
+# List Unpacking example "" *others or *anyother keyword""
+
+a,b,c,*done,d = [1,2,3,5,6,7,8,9]
+
+print(a)
+print(b)
+print(c)
+print(done)
+print(d)
