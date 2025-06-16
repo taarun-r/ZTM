@@ -40,7 +40,7 @@
 
 # # List Methods
 
-# # To use menthods on a list you need tyo use a . after the list
+# # To use methods on a list you need tyo use a . after the list
 # # Append and insert modifies the list in place, but does not make a copy of the list or return anything
 
 # basket = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -67,46 +67,46 @@
 
 # basket.remove(11)
 
-# # Clear method 
+# # Clear method
 
 # basket.clear() - # removes what ever is there in the lists.
 
 # # **********************************************************
-#  List Methods 2 
+#  List Methods 2
 # new_basket = [1,2,3,4,5]
 # basket  = ["a","b","c","d","e","g","x","i","f"]
 # print(basket.index("d", 0, 4))
 
-# print("e" in basket) # "in" keyword 
+# print("e" in basket) # "in" keyword
 
 # print(basket.count("d"))
 
-# List Methods 3 
+# List Methods 3
 # basket.sort()
 # print(basket)
 
 # Sorted - Produces a new array (Creates a new copy of the array/list)
 # print(sorted(basket))
 
-# Reverse method 
+# Reverse method
 # basket.sort()
 # basket.reverse()
 # print(basket)
 
-# Common List Patterns 
+# Common List Patterns
 # print(basket[::-1])
 
 # print(list(range(101)))
 
-# join method 
+# join method
 # sentence = " "
 # # new_sent = sentence.join(["Hi", "my", "name", "King6"])
 # new_sent = " ".join(["Hi", "my", "name", "King6"])
 # # print(new_sent)
 
-# List Unpacking example "" *others or *anyother keyword""
+# List Unpacking example "" *others or *any other keyword""
 
-a,b,c,*done,d = [1,2,3,5,6,7,8,9]
+a, b, c, *done, d = [1, 2, 3, 5, 6, 7, 8, 9]
 
 print(a)
 print(b)
