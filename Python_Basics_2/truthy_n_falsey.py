@@ -21,7 +21,7 @@ else:
 
 if is_old and is_licenced:
     print("Your are old enought to drive and have a license")
-elif
+
 else:
     print("check check !")
 
