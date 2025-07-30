@@ -18,4 +18,3 @@ for x in lower_case:
         if x not in dup:
             dup.append(x)
 print(dup)
-    
