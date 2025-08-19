@@ -8,8 +8,6 @@ class Cat:
         self.age = age
 
 
-
-
 # 1 Instantiate the Cat object with 3 cats
 cat1 = Cat("milly", 3)
 cat2 = Cat("Kandu", 7)
@@ -20,9 +18,6 @@ cat3 = Cat("sheeba", 4)
 def OldestCat(*args):
     return max(args)
             
-    
-
-
 
 # 3 Print out: "The oldest cat is x years old.". x will be the oldest cat age by using the function in #2
 print(f"Oldest cat is {OldestCat(cat1.name, cat2.name,cat3.name)}")
